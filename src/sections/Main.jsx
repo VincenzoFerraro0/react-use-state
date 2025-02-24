@@ -1,7 +1,9 @@
+import Accordion from "../components/Accordion";
+
 const Main = ({languages}) => {
     return (
         <main>
-            <h1>Main</h1>
+            <Accordion languages={languages}  />
         </main>
     )
 };
