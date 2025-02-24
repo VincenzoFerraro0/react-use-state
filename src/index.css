@@ -1,0 +1,79 @@
+/* FONT GOOGLE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", serif;
+}
+
+
+
+/* UTILITIS */
+
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase;
+}
+.btn__yellow{
+    color: black;
+    background-color: #FFC109;
+}
+.btn__blue{
+    color: #fff;
+    background-color: #0D6EFD;
+}
+
+
+/* COMPONENTS */
+header{
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+
+/* COMPONENT ACCORDION */
+.accordion{
+    margin-block: 1rem;
+}
+
+.accordion__Header{
+    margin-block: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.accordion__Body{
+    width: 50%;
+   
+}
+
+/* COMPONENT CARD */
+
+.card{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-inline: 1rem;
+}
+
+.card > *{
+    margin-block: 1rem ;
+}
+
+
+
+

@@ -1,11 +1,9 @@
-const Card = () => {
+const Card = ({ title, description }) => {
     return (
         <div className="card">
-            <div className="card-body">
-                <div className="card-title"></div>
-                <p className="card-text"></p>
-            </div>
+            <h3 className="card-title">{title}</h3>
+            <p className="card-text">{description}</p>
         </div>
     )
 };
-export default Card ;
+export default Card;
